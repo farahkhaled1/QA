@@ -10,36 +10,30 @@
     <link
       rel="stylesheet"
       href="../../../public/css/nicepage.css"
-      media="screen"
-    />
+      media="screen"/>
     <link
       rel="stylesheet"
       href="../../../public/css/course-specs.css"
-      media="screen"
-    />
+      media="screen" />
     <script
       class="u-script"
       type="text/javascript"
       src="../../../public/js/jquery.js"
-      defer=""
-    ></script>
+      defer="" ></script>
     <script
       class="u-script"
       type="text/javascript"
       src="../../../public/js/nicepage.js"
-      defer=""
-    ></script>
+      defer=""></script>
     <meta name="generator" content="Nicepage 4.6.5, nicepage.com" />
     <link
       id="u-theme-google-font"
       rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i"
-    />
+      href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i"/>
     <link
       id="u-page-google-font"
       rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i"
-    />
+      href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i" />
 
     <script type="application/ld+json">
       {
@@ -88,16 +82,14 @@
     <section class="u-align-center u-clearfix u-section-1" id="sec-01c0">
       <div class="u-clearfix u-sheet u-sheet-1">
         <h2 class="u-text u-text-default u-text-1">
-          Basic
-          <span style="text-decoration: underline !important">information</span>
-        </h2>
+          Basic  <span style="text-decoration: underline !important">information</span></h2>
 
         <?php
       include '../../../app/models/UserModel.php';
        class CourseSpecs extends UserModel
        {
       
-          public function view()
+          public function viewInfo()
        {
          $DB=$this->dbh->query('select * from courses');
          $DB->setFetchMode(PDO::FETCH_ASSOC);
