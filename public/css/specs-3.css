@@ -18,11 +18,15 @@ div.scrollmenu a:hover {
 .u-section-1 {
   min-height: 1415px;
 }
+.u-section-adjust {
+  justify-content: center;
+}
 
 .u-section-1 .u-text-1 {
   line-height: 2;
   background-image: none;
   margin: 48px 21px 0;
+  width: 1000px;
 }
 
 .u-section-1 .u-group-1 {
@@ -30,6 +34,7 @@ div.scrollmenu a:hover {
   min-height: 151px;
   height: auto;
   margin: 14px calc(((100% - 1140px) / 2) + 36px) 0 auto;
+  width: 1000px;
 }
 
 .u-section-1 .u-container-layout-1 {
@@ -39,11 +44,13 @@ div.scrollmenu a:hover {
 
 .u-section-1 .u-text-2 {
   margin: -15px 0 0;
+  width: 1000px;
 }
 
 .u-section-1 .u-table-1 {
   width: 1049px;
   margin: -75px calc(((100% - 1140px) / 2) + 36px) 60px auto;
+  width: 1000px;
 }
 
 .u-section-1 .u-table-header-1 {
