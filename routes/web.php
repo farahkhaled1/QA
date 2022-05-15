@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use app\Http\Controllers\MainController;
 
 /*
 |--------------------------------------------------------------------------
@@ -21,3 +22,6 @@ Route::get('/', function () {
 Route::get('/login', function () {
     return view('login');
 });
+
+
+Route::get('/auth/login', [MainController::class, 'login'])->name('auth.login');
